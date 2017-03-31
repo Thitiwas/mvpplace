@@ -4,8 +4,8 @@
     <h1 class="content">ฝากขาย-เช่าอสังหาริมทรัพย์ฟรี</h1>
     <h1 class="content">สนใจคลิ๊ก
       <!-- <img @click="sign()" width="60" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Facebook_like_thumb.png"> -->
-      <a href="" @click="sign()">ที่นี่</a>
-      <!-- <button @click="signOut()"> signout </button> -->
+      <a  @click="sign()">ที่นี่</a>
+      <button @click="signOut()"> signout </button>
     </h1>
     <br>
     <img :src="photoURL"> <br>
@@ -77,7 +77,6 @@ export default {
   color: #2c3e50;
   background-image: url("http://www.justrightselfstorage.ca/uploads/images/condos%20ottawa.jpg");
   height: 100vh;
-  width:  100%;
 }
 .content {
   margin-left: 20%;
